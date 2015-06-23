@@ -1,0 +1,1 @@
+From the command prompt and from the sorted CSV file ( from Assignment1 ) based on certain column value it should give the complete data record of that requested column
