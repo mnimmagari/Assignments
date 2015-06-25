@@ -12,8 +12,7 @@ public class SortProgram
 {
 	private static String getField(String line)
 	{
-		//Extracting the value on which we want to sort
-        return line.split(",")[3];
+	return line.split(",")[3];	//Extracting the value on which we want to sort
 	}
 
 	public static void main(String args[]) throws IOException
@@ -21,7 +20,7 @@ public class SortProgram
 	String csv="D:/qsortdata.csv";
 	BufferedReader br= new BufferedReader(new FileReader(csv));	
 	Map<String, List<String>> map = new TreeMap<String, List<String>>();//Maps unique keys to values
-	String line = br.readLine();//read header
+	String line = br.readLine();	//read header
 	try 
     	{
     	     while ((line = br.readLine()) != null) 
@@ -35,7 +34,7 @@ public class SortProgram
     		       map.put(key, l);
     		     }
     		     l.add(line);
-    		    //System.out.println(map.values());
+    		     //System.out.println(map.values());
     		}
     	             br.close();
          }
