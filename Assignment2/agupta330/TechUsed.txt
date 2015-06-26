@@ -1,0 +1,4 @@
+Technique Used:
+1.Retreiving data from Sorted CSV file using BufferReader.
+2.Storing sorted data line by line using add method of List.
+3.Printing the record based on user input.
