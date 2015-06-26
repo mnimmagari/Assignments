@@ -35,7 +35,7 @@ public class RecordFromSortedData
 		    }
 		    System.out.println("Searching Complete");
 		    System.out.println(lines.get(lineno));
-        break;
+        	break;
 		
 		case 2:  
 			
@@ -140,7 +140,7 @@ public class RecordFromSortedData
 			}
 			
 			
-        break;
+        	break;
 		}
 		
 	 	
